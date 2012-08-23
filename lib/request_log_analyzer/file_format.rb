@@ -4,6 +4,7 @@ module RequestLogAnalyzer::FileFormat
   autoload :Rails3,           'request_log_analyzer/file_format/rails3'
   autoload :RailsDevelopment, 'request_log_analyzer/file_format/rails_development'
   autoload :Oink,             'request_log_analyzer/file_format/oink'
+  autoload :OinkRails3,       'request_log_analyzer/file_format/oink_rails3'
   autoload :Rack,             'request_log_analyzer/file_format/rack'
   autoload :Merb,             'request_log_analyzer/file_format/merb'
   autoload :Mysql,            'request_log_analyzer/file_format/mysql'
